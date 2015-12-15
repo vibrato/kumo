@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "Rakefile", "Readme.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "aws-sdk", "2.0.6.pre"
+  s.add_dependency "aws-sdk", "~> 2.2"
   s.add_dependency "sshkit"
   s.add_dependency "sshkey"
   s.add_dependency "thor"
