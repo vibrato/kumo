@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "aws-sdk", "~> 2.2"
-  s.add_dependency "sshkit", "~> 1.8"
+  s.add_dependency "sshkit", "~> 1.8.0"
   s.add_dependency "sshkey"
   s.add_dependency "thor"
 
